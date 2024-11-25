@@ -8,8 +8,8 @@
 /* Menata Body */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient( rgb(50, 245, 245), rgb(236, 170, 46), rgb(233, 49, 49));
-    filter: blur(10px);
+    background: linear-gradient( rgb(50, 245, 245), rgb(240, 73, 7), rgb(55, 201, 238));
+    
     color: #333;
     line-height: 1.6;
     font-size: 16px;
@@ -17,7 +17,7 @@ body {
 
 /* Header */
 header {
-    background-color: #1f2833; /* Gelap, hampir hitam */
+    background-color: #4c32dd; /* Gelap, hampir hitam */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -31,7 +31,7 @@ header h1 {
 }
 
 #cart button {
-    background-color: #27ae60;
+    background-color: #201f1e;
     color: white;   
     padding: 10px 20px;
     border: none;
@@ -56,7 +56,7 @@ header h1 {
 }
 
 .product {
-    background-color: #fff;
+    background-color: rgb(82, 46, 83);
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
