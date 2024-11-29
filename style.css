@@ -184,11 +184,11 @@ header h1 {
 
 /* Checkout Button */
 #shopping-cart button {
-    background-image: url('chrome.jpg'); 
+    background-image: url('church.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('chrome.jpg'); color: white; 
+    background-image: url('church.jpg'); color: white; 
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -217,7 +217,7 @@ header h1 {
 }
 
 .payment-option {
-    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
     color: white;
     padding: 15px;
     margin: 10px;
@@ -229,7 +229,7 @@ header h1 {
 
 .payment-option:hover {
     transform: scale(1.05);
-    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
 }
 
 #payment-confirmation {
@@ -259,7 +259,7 @@ header h1 {
 }
 
 .courier-option {
-    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
     color: white;
     padding: 15px;
     margin: 10px;
@@ -271,7 +271,7 @@ header h1 {
 
 .courier-option:hover {
     transform: scale(1.05);
-    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
 }
 
 #courier-confirmation {
