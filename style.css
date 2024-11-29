@@ -8,16 +8,18 @@
 /* Menata Body */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient( rgb(50, 245, 245), rgb(240, 73, 7), rgb(55, 201, 238));
-    
-    color: #333;
-    line-height: 1.6;
-    font-size: 16px;
+    background-image: url('church.jpg');
+    background-size: cover; /* Agar gambar menutupi seluruh latar belakang */
+    background-position: center; /* Agar gambar terpusat */
+    background-repeat: no-repeat; /* Agar gambar tidak terulang */
 }
 
 /* Header */
 header {
-    background-color: #4c32dd; /* Gelap, hampir hitam */
+    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -31,14 +33,18 @@ header h1 {
 }
 
 #cart button {
-    background-color: #201f1e;
-    color: white;   
+    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
+    background-size: cover; /* Membuat gambar menyesuaikan ukuran tombol */
+    background-position: center; /* Menempatkan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     font-size: 1.1em;
 }
+
 
 #cart button:hover {
     background-color: #2ecc71;
@@ -56,7 +62,10 @@ header h1 {
 }
 
 .product {
-    background-color: rgb(82, 46, 83);
+    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
+    background-size: cover; /* Membuat gambar mengisi seluruh elemen */
+    background-position: center; /* Menempatkan bagian tengah gambar */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -64,7 +73,9 @@ header h1 {
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white; /* Ubah warna teks agar kontras dengan gambar */
 }
+
 
 .product:hover {
     transform: translateY(-10px);
@@ -85,7 +96,7 @@ header h1 {
 
 .product h3 {
     font-size: 1.5em;
-    color: #333;
+    color: rgb(243, 240, 240);
     margin: 15px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -93,12 +104,12 @@ header h1 {
 
 .product p {
     font-size: 1.1em;
-    color: #27ae60;
+    color: #f8f8f8;
     margin-bottom: 20px;
 }
 
 .product button {
-    background-color: #2980b9;
+    background-color: #0a0a0a;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -109,7 +120,7 @@ header h1 {
 }
 
 .product button:hover {
-    background-color: #3498db;
+    background-color: #0a0a0a;
     transform: scale(1.1);
 }
 
@@ -172,17 +183,20 @@ header h1 {
 }
 
 /* Checkout Button */
-#checkout-button {
-    background-color: #f39c12;
-    color: white;
-    padding: 12px 20px;
+#shopping-cart button {
+    background-image: url('chrome.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: url('chrome.jpg'); color: white; 
     border: none;
     border-radius: 30px;
     cursor: pointer;
     width: 100%;
     font-size: 1.2em;
-    margin-top: 20px;
+    transition: background-image 0.3s ease; 
 }
+
 
 #checkout-button:hover {
     background-color: #e67e22;
@@ -203,7 +217,7 @@ header h1 {
 }
 
 .payment-option {
-    background-color: #2980b9;
+    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
     color: white;
     padding: 15px;
     margin: 10px;
@@ -215,7 +229,7 @@ header h1 {
 
 .payment-option:hover {
     transform: scale(1.05);
-    background-color: #3498db;
+    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
 }
 
 #payment-confirmation {
@@ -245,7 +259,7 @@ header h1 {
 }
 
 .courier-option {
-    background-color: #2980b9;
+    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
     color: white;
     padding: 15px;
     margin: 10px;
@@ -257,7 +271,7 @@ header h1 {
 
 .courier-option:hover {
     transform: scale(1.05);
-    background-color: #3498db;
+    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
 }
 
 #courier-confirmation {
