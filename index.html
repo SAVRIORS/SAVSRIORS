@@ -10,11 +10,14 @@
 
     <!-- Header -->
     <header>
-        <h1>WELCOME TO SAVRIORS STORE</h1>
+        <h1>
+            <img src="Desain tanpa judul.png"  style="height: 365px;">
+        </h1>
         <div id="cart">
             <button onclick="toggleCart()">Keranjang <span id="cart-count">0</span> item</button>
         </div>
-    </header>       
+    </header>
+    
 
     <section class="products">
         <!-- Produk 1 -->
@@ -427,6 +430,40 @@
 
             <button onclick="addToCart('JUSTIN BIEBER T SHIRT', 3200000)">add to cart</button>
         </div>
+
+        <div class="product">
+            <img src="MOUTHGUARD.png" alt="MOUTHGUARD CHROMEHEARTS">
+            <h3>MOUTHGUARD CHROMEHEARTS</h3>
+            <p>PRICE:DM ONLY</p>
+            <p> Stock: <span class="stock">1</span></p> <!-- Menambahkan stok -->
+            <!-- Dropdown Ukuran -->
+            <br>
+            <br>
+
+            <button onclick="addToCart('MOUTHGUARD CHROMEHEARTS', )">add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="mlbtravis.jpg" alt="MLB X TRAVIS X NIKE">
+            <h3>MLB X TRAVIS X NIKE</h3>
+            <p>PRICE:10.200.000</p>
+            <p>STOCK: <span class="stock">1</span></p> <!-- Menambahkan stok -->
+            <!-- Dropdown Ukuran -->
+            <select id="size-1">
+                <option value="">SIZE</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+            <br>
+            <br>
+
+            <button onclick="addToCart('MLB X TRAVIS X NIKE', 10200000)">add to cart</button>
+        </div>
+
+        
     </section>
     
     
