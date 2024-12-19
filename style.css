@@ -8,7 +8,7 @@
 /* Menata Body */
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('church.jpg');
+    background-image: url('BG.jpg');
     background-size: cover; /* Agar gambar menutupi seluruh latar belakang */
     background-position: center; /* Agar gambar terpusat */
     background-repeat: no-repeat; /* Agar gambar tidak terulang */
@@ -16,12 +16,7 @@ body {
 
 /* Header */
 header {
-    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 20px 0;
+   
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -62,7 +57,7 @@ header h1 {
 }
 
 .product {
-    background-image: url('chrome.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('ch store.jpg'); /* Ganti dengan URL gambar */
     background-size: cover; /* Membuat gambar mengisi seluruh elemen */
     background-position: center; /* Menempatkan bagian tengah gambar */
     background-repeat: no-repeat; /* Mencegah pengulangan gambar */
@@ -184,11 +179,11 @@ header h1 {
 
 /* Checkout Button */
 #shopping-cart button {
-    background-image: url('church.jpg'); 
+    background-image: url('BG.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('church.jpg'); color: white; 
+    background-image: url('BG.jpg'); color: white; 
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -217,7 +212,7 @@ header h1 {
 }
 
 .payment-option {
-    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('BG.jpg'); /* Ganti dengan URL gambar */
     color: white;
     padding: 15px;
     margin: 10px;
@@ -229,7 +224,7 @@ header h1 {
 
 .payment-option:hover {
     transform: scale(1.05);
-    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('BG.jpg'); /* Ganti dengan URL gambar */
 }
 
 #payment-confirmation {
@@ -243,7 +238,7 @@ header h1 {
 }
 
 #payment-confirmation h4 {
-    margin-top: 20px;
+    margin-top: 80px;
     font-size: 1.2em;
 }
 
@@ -259,7 +254,7 @@ header h1 {
 }
 
 .courier-option {
-    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('BG.jpg'); /* Ganti dengan URL gambar */
     color: white;
     padding: 15px;
     margin: 10px;
@@ -271,14 +266,17 @@ header h1 {
 
 .courier-option:hover {
     transform: scale(1.05);
-    background-image: url('church.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('BG.jpg'); /* Ganti dengan URL gambar */
 }
 
 #courier-confirmation {
     display: none;
     text-align: center;
     margin-top: 20px;
+    color: rgb(243, 243, 250); /* Mengatur warna teks */
+    
 }
+
 
 #courier-confirmation.open {
     display: block;
@@ -292,7 +290,7 @@ header h1 {
 #size-1 {
     width: 200px;
     border-radius: 10px;
-    background: linear-gradient(#00ffff, #00008b);
+    background: linear-gradient(#080808, #00008b);
     font-size: 17px;
     color: white;
 }
